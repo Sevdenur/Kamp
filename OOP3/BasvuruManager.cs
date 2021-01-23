@@ -10,7 +10,7 @@ namespace OOP3
         public void BasvuruYap(IKrediManager krediManager, List<ILoggerService> loggerServices)
         {
             //Başvuran bilgilerini değerlendirme
-            
+            //
             //KonutKrediManager konutKrediManager = new KonutKrediManager();
             //parametre olarak IKrediManager verildiğinde krediden bağımsız olarak belirtmeye gerek kalmadan hesaplanması yapacak
             krediManager.Hesapla();
