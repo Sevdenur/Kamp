@@ -13,7 +13,7 @@ namespace OOP3
             ILoggerService databaseLoggerService = new DatabaseLoggerService();
             ILoggerService fileLoggerService = new FileLoggerService();
 
-            //interfaceler de onu implement eden classın referansını tutabiliyor.
+            //interfaceler de onu implement eden classın referansını tutabiliyor
             BasvuruManager basvuruManager = new BasvuruManager();
             basvuruManager.BasvuruYap(ihtiyacKrediManager, new List<ILoggerService> { new DatabaseLoggerService(), new FileLoggerService() });
 
